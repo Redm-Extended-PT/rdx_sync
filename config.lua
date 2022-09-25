@@ -1,19 +1,10 @@
 Config          = {}
 Config.Locale   = 'en'
 
--------
--- Time
--------
-
--- Set a default server time when server is started
 Config.ServerStartTime = {
-    hour    = 07,   -- between 0 and 23
+    hour    = 09,   -- between 0 and 23
     minute  = 00    -- between 0 and 59
 }
-
--------
--- Weather
--------
 
 -- Make weather dynamic, default `true`
 Config.DynamicWeatherChanges = true
