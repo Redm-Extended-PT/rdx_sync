@@ -25,5 +25,5 @@ server_scripts {
 }
 
 dependencies {
-	'redm_extended'
+	'rdx_core'
 }
