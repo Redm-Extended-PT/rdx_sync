@@ -3,8 +3,8 @@ Sync    = {
     LastWeatherChange = Config.TimeBetweenWeatherChanges * 600
 }
 
-if (exports and exports['redm_extended']) then
-    RDX = exports['redm_extended']:getSharedObject()
+if (exports and exports['rdx_core']) then
+    RDX = exports['rdx_core']:getSharedObject()
 else
     TriggerEvent('rdx:getSharedObject', function(obj) RDX = obj end)
 end
