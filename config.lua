@@ -7,7 +7,7 @@ Config.Locale   = 'en'
 
 -- Set a default server time when server is started
 Config.ServerStartTime = {
-    hour    = 09,   -- between 0 and 23
+    hour    = 07,   -- between 0 and 23
     minute  = 00    -- between 0 and 59
 }
 
@@ -19,7 +19,7 @@ Config.ServerStartTime = {
 Config.DynamicWeatherChanges = true
 
 -- Time between dynamic changes, default 10 mins
-Config.TimeBetweenWeatherChanges = 10
+Config.TimeBetweenWeatherChanges = 30
 
 -- Max wind speed
-Config.MaxWindSpeed = 10.0
+Config.MaxWindSpeed = 30.0
