@@ -8,7 +8,7 @@ description 'RedM Extended Server Sync'
 version '1.0.0'
 
 client_scripts {
-    '@redm_extended/locale.lua',
+    '@rdx_core/locale.lua',
     'locales/en.lua',
     'config.lua',
     'client/main.lua'
